@@ -1,0 +1,51 @@
+#-------------------------------
+# About Section
+
+# For the face image change the picture in /assets/images/face.jpg
+# See /assets/css/3-modules/_about.sass to change extention.
+
+blurb: >
+  I'm a software engineering student studying at Carleton University  in Ottawa, ON. I have a passion for learning the latest cutting edge technology and teaching others how to use it as well. Whether it's low level coding on a BeagleBone Black or high level web development with Jekyll, I'm interested in it and want to know more.
+
+  I have a lot of plans coming up in the future, I want to start making guides and posting them on this site, and eventually I want to start making videos showing how to do the various projects I've done. I want these to be both instructional and informational so that you can know what you're doing and why you're doing it this way.
+
+
+skills:
+- {name: Teaching, value: '9'}
+- {name: Learning, value: '10'}
+- {name: Planning, value: '8'}
+- {name: Design, value: '7'}
+- {name: Organization, value: '8'}
+- {name: Communication, value: '6'}
+- {name: Programming, value: '7'}
+- {name: Adaptability, value: '9'}
+
+
+#-------------------------------
+# Project Section
+
+projects:
+- title: Example Title
+  folder: 'example-folder'
+  url: '/projects/example-folder'
+  excerpt: >
+    This Project hosts the code for my project to make a _____ that will be super cool. I will be using various super cool tools to do it.
+
+
+#-------------------------------
+# Contact Section
+
+# Available icons in assets/css/1-tools/_icons-icomoon.scss
+
+social:
+- icon: 'twitter'
+  link: 'https://twitter.com/Derek_Stride'
+
+- icon: 'google'
+  link: 'https://plus.google.com/+DerekStride'
+
+- icon: 'github'
+  link: 'https://github.com/DerekStride'
+
+- icon: 'linkedin-square'
+  link: 'https://ca.linkedin.com/in/derekstride'
