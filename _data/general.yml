@@ -1,11 +1,22 @@
 #-------------------------------
 # General Site Settings
 
-title: Stu Dent
-email: student@mail.com
-tagline: "See | Solve | Save"
+title: Continuous Integration
 
-tracking: UA-xxxxxxx-x
+name: John Doe
+email: djgstride@gmail.com
+main_header: DevOps Guy
+tagline: "Super cool Tagline"
+
+tracking: UA-xxxxxxxxx-x
+
+#-------------------------------
+# SEO Section
+
+seo:
+  description: 'An example excerpt that would show up in a google search.'
+  rel-author: 'https://plus.google.com/+DerekStride'
+  rel-publisher: 'https://plus.google.com/+DerekStride'
 
 
 #-------------------------------

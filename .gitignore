@@ -1,3 +1,7 @@
 *_site
 *.old
 *.sass-cache
+vendor/
+.bundle/
+.ruby-version
+

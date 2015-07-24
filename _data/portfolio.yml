@@ -1,13 +1,8 @@
 #-------------------------------
 # About Section
 
-# For the face image change the picture in /assets/images/face.jpg
-# See /assets/css/3-modules/_about.sass to change extention.
-
 blurb: >
-  I'm a software engineering student studying at Carleton University  in Ottawa, ON. I have a passion for learning the latest cutting edge technology and teaching others how to use it as well. Whether it's low level coding on a BeagleBone Black or high level web development with Jekyll, I'm interested in it and want to know more.
-
-  I have a lot of plans coming up in the future, I want to start making guides and posting them on this site, and eventually I want to start making videos showing how to do the various projects I've done. I want these to be both instructional and informational so that you can know what you're doing and why you're doing it this way.
+  Derek is an engineering student at Carleton University in Ottawa, Ontario, and grew up in the magnificent province of Newfoundland and Labrador. He has a passion for learning; whether it be low-level coding on the TI Launchpad, front end web development with Jekyll, or configuration management with CHEF. While developing code to run underwater and in the stratosphere are projects from the past, he has yet to place anything of his own on Mars, but claims that it's coming and NASA can't stop him.
 
 
 skills:
@@ -21,16 +16,33 @@ skills:
 - {name: Adaptability, value: '9'}
 
 
+
+
 #-------------------------------
 # Project Section
 
 projects:
-- title: Example Title
-  folder: 'example-folder'
-  url: '/projects/example-folder'
+- title: Atmega328 LCD
+  folder: 'atmega-lcd'
+  url: '/projects/atmega328-lcd'
   excerpt: >
-    This Project hosts the code for my project to make a _____ that will be super cool. I will be using various super cool tools to do it.
+    This Project hosts the code for my project to make an LCD screen that will be controlled by the Atmega328p with the Arduino bootloader on it. I will be using various tutorials and guides and will provide the link to all of them in the Sources section below.
 
+- title: Homework Solvers
+  folder: 'homework-solvers'
+  url: '/projects/homework-solvers'
+  excerpt:  >
+    Here's how to compile and run all the versions of this project. If you can even run them out of the box.
+- title: SYSC2003
+  folder: 'sysc2003'
+  url: '/notes/sysc2003'
+  excerpt:  >
+    I'll Update this as I learn more but for now here's a sample on different important topics we covered.
+- title: CU in the Air
+  folder: 'cu-in-the-air'
+  url: 'http://carletonslam.github.io/spacegoldfish/'
+  excerpt: >
+    CU in the Air is a group of Carleton University engineering students that have come together to put their love for creative thinking and problem solving to the test. As we are always looking for a challenge, the GSBC grabbed our attention immediately. Excited to see what kind of results we can produce, CU in the Air has officially joined the effort in celebrating an age where anyone can reach the edge of space for no more than a few hundred dollars.
 
 #-------------------------------
 # Contact Section

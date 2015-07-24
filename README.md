@@ -1,24 +1,3 @@
-Generic Student Theme, Fork Away!
-=================================
-
-## Page Menu
-
-Each page requires YAML front matter to be rendered by jekyll, so I build a neat feature into the header and footer.
-
-``` html
-{% for item in page.menu %}
-  <a href=#{{ item.url }}>{{ item.header }}</a>
-{% endfor %}
-```
-
-To use this add a yaml list called menu in each page front matter. Jekyll creates a id for each header in the following manner `# Music in a Box` to `<h1 id="music-in-a-box">Music in a Box</h1>`. Take advantage of this by adding descriptive menu tags.
-
-``` yaml
-menu:
--header: Music in a Box
--url   : music-in-a-box
-```
-
 # Sources
 
 [Artist Theme by DevTips](https://github.com/DevTips/Artists-Theme)
