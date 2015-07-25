@@ -1,12 +1,12 @@
 #-------------------------------
 # General Site Settings
 
-title: Continuous Integration
+title: CarletonSLAM
 
-name: John Doe
-email: djgstride@gmail.com
-main_header: DevOps Guy
-tagline: "Super cool Tagline"
+name: CarletonSLAM
+email:
+main_header: CarletonSLAM
+tagline: "Stay Late and Make"
 
 tracking: UA-xxxxxxxxx-x
 
@@ -14,12 +14,12 @@ tracking: UA-xxxxxxxxx-x
 # SEO Section
 
 seo:
-  description: 'An example excerpt that would show up in a google search.'
-  rel-author: 'https://plus.google.com/+DerekStride'
-  rel-publisher: 'https://plus.google.com/+DerekStride'
+  description: 'IEEE Carleton presents CarletonSLAM (Stay Late and Make).'
+  rel-author: 'Derek Stride'
+  rel-publisher: 'CarletonSLAM'
 
 
 #-------------------------------
 # Website Handles
 
-github: DerekStride
+github: CarletonSLAM
