@@ -491,13 +491,13 @@ aside.clients img {
   margin: 50px auto
 }
 section#contact {
-  background-color: #222;
+  /*background-color: #222;*/
   background-image: url(../img/map-image.png);
   background-position: center;
   background-repeat: no-repeat
 }
 section#contact .section-heading {
-  color: #fff
+  color: #000
 }
 section#contact .form-group {
   margin-bottom: 25px
@@ -667,7 +667,7 @@ body {
 
 .google-maps {
 	position: relative;
-	padding-bottom: 75%; 
+	padding-bottom: 75%;
 	height: 10;
 	overflow: hidden;
 }
