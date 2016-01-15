@@ -675,7 +675,24 @@ body {
 	height: 10;
 	overflow: hidden;
 }
+
 .google-maps iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.google-form{
+	position: relative;
+	padding-bottom: 75%;
+	height: 60em;
+	overflow: hidden;
+}
+
+
+.google-form iframe{
 	position: absolute;
 	top: 0;
 	left: 0;
