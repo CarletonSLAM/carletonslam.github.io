@@ -49,13 +49,6 @@
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top"><span class="first-letter">S</span>tay <span class="first-letter">L</span>ate <span class="first-letter">A</span>nd <span class="first-letter">M</span>ake</a>
             </div>
-            <div class="time">
-              <ul class="nav navbar-nav">
-                <li>
-                  <a class="no-highlight">Thursday at 6pm AA510</a>
-                </li>
-              </ul>
-            </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
@@ -94,6 +87,7 @@
             	<img src="img/header/Header.svg" class="img" style="padding-top:5em; padding-bottom:2em; height:60%;width:60%;" alt="">
 
 				<div class="intro-heading"style="padding-top:1em; padding-bottom:0.3em;">Bring Your Idea To Life</div>
+				<h4 style="padding-bottom:2em;">THURSDAYS at 6PM in AA510</h4>
 				<a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
 
 			</div>
@@ -213,8 +207,24 @@
                         <p class="text-muted">IEEE Carleton PCB Keychains</p>
                     </div>
                 </div>
+
                 <div class="col-md-6 col-sm-6 portfolio-item">
                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/carletonscheduler.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Carleton Schedule Optimizer</h4>
+                        <p class="text-muted">Web App To Make Carleton Schedules</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -227,36 +237,6 @@
                         <p class="text-muted">S.L.A.M. hackathon</p>
                     </div>
                 </div>
-				<!--
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/escape.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Escape</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Dreams</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-				-->
             </div>
         </div>
     </section>
@@ -708,15 +688,11 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>S.L.A.M. Hacks</h2>
-                            <p class="item-intro text-muted">Our first go at hosting a hackathon</p>
-                            <div class="embed-responsive embed-responsive-16by9">
-                              <video autoplay loop class="embed-responsive-item">
-                                <source src="img/portfolio/slamhacks.mp4" type="video/mp4">
-                              </video>
-                            </div>
-                            <!-- <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt=""> -->
-                            <p>SLAM HACKS was IEEE Stay Late and Make’s (SLAM) first hackathon. It lasted a total of 26 hours through the weekend of April 2nd – April 3rd. 24 hours were be allocated for the hack, and 2 hours for judging and results. Participation was completely free.</p>
+
+                            <h2>Carleton Schedule Optimizer</h2>
+                            <p class="item-intro text-muted">Project by Sean Tohidi</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/carletonscheduler.png" alt="">
+                            <p>This <a href="https://carletonscheduler.herokuapp.com">web application</a> takes in Carleton University courses for a given semester. It grabs the courses' data off of Carleton's website and then finds a schedule made with those courses while minimizing the amount of breaks between classes. This project was written in Python, and the webpage was build using the Django framework.</p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
@@ -739,11 +715,15 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
-                            <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                            <h2>S.L.A.M. Hacks</h2>
+                            <p class="item-intro text-muted">Our first go at hosting a hackathon</p>
+                            <div class="embed-responsive embed-responsive-16by9">
+                              <video autoplay loop class="embed-responsive-item">
+                                <source src="img/portfolio/slamhacks.mp4" type="video/mp4">
+                              </video>
+                            </div>
+                            <!-- <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt=""> -->
+                            <p>SLAM HACKS was IEEE Stay Late and Make’s (SLAM) first hackathon. It lasted a total of 26 hours through the weekend of April 2nd – April 3rd. 24 hours were be allocated for the hack, and 2 hours for judging and results. Participation was completely free.</p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
@@ -811,9 +791,29 @@
                             <h2>SLAM Hardware Library</h2>
                             <p class="item-intro text-muted">Take a look at the a sample of our hardware library below. We
 									are always expanding our library to better accommodate the creation of side-projects</p>
+							<h3>Development and Evaluation Boards</h3>
 							<p><a href="http://www.ti.com/ww/en/launchpad/launchpads-connected-ek-tm4c123gxl.html#tabs">Ti Launchpad</a></p>
 							<p><a href="https://store.particle.io/">Particle Photon and Core</a></p>
-							<p>More coming soon!</p>
+							<p><a href="https://www.raspberrypi.org/help/what-is-a-raspberry-pi/">Raspberri Pi 1 and 2</a></p>
+							<p><a href="https://www.arduino.cc/en/Guide/Introduction">Arduino Boards</a></p>
+							<p><a href="http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/LN1847?sc=stm32nucleo">STM21 Nucleo</a></p>
+							<p><a href="http://www.embeddedartists.com/products/lpcxpresso/lpc1769_xpr.php">LPC1769 LPCXpresso</a></p>
+							<p><a href="http://beagleboard.org/black">BeagleBone Black</a></p>
+							<h3>Debugging Equipment</h3>
+							<p>Digital Multimeters</p>
+							<p>Oscilloscopes</p>
+							<p>Funtion Generator</p>
+							<p><a href="https://www.saleae.com/">Saleae Logic Analyzer</a></p>
+							<p><a href="http://www.atmel.com/webdoc/avrdragon/index.html">AVR Dragon</a></p>
+							<p><a href="http://dangerousprototypes.com/docs/Bus_Pirate">Bus Pirate</a></p>
+							<p><a href="http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/LN1847?sc=stm32nucleo">STM21 Nucleo</a></p>
+							<p><a href="http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/LN1847?sc=stm32nucleo">STM21 Nucleo</a></p>
+							<p><a href="http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/LN1847?sc=stm32nucleo">STM21 Nucleo</a></p>
+							<h3>Soldering Equipment</h3>
+							<p>2 HAKKO Soldering Stations </a></p>
+							<p>2 Hot Air Stations for Surface Mount Soldering</a></p>
+							<p>Surface Mount Soldering Clamps</a></p>
+							<p>Come and see what we have!</p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Go Back</button>
                         </div>
                     </div>
@@ -839,21 +839,57 @@
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
                             <h2>SLAM Workshops</h2>
-                            <p class="item-intro text-muted"> Details coming soon</p>
-                            <h3>Previous SLAM WORKSHOPS</h3>
-                            <p>PCB - Hasith(?)</p>
-                            <p>APIs - Derek + Monty</p>
-                            <p>Django web framework - Krish</p>
-                            <p>Machine Learning Concepts - Monty</p>
-                            <p>Android Studio - Monty</p>
-                            <h3>Future SLAM WORKSHOPS (bi-weekly)</h3>
-                            <p>Bus Pirates (tutorial) – Irusha</p>
-                            <p>Ruby on Rails (interactive) – Derek + Justin Fleming</p>
-                            <p>Microsoft Azure Machine Learning (interactive) – Monty</p>
-                            <p>Photon microcontroller (tutorial/interactive, groups of 2-3) – Irusha</p>
-                            <p>Database Design (sqlite3 for queries, interactive) – Justin Krol</p>
-                            <p>Android Studio round 3? (need 3 hrs on weekend) - Monty</p>
-                            <p>Stay Tuned!</a>.</p>
+                            <p class="item-intro text-muted"> Take a look at the sample of workshops we offer</p>
+                            <h3>Building Microcontroller Boards</h3>
+                            <p>Instructor(s): Hasith Vidanamadura<br>
+								Design, layout, and assemble an Arduino-compatible microcontroller board.
+								The workshop will provide a commercial professional fabrication service as well as the
+								testing and design help to get your design working.
+							</p>
+							<h3>Using APIs</h3>
+                            <p>Instructor(s): Derek Stride and Monty Dhanani<br>
+								Learn how to interact with the Slack API to create channels, teams,
+								groups, messages, and create automated slack bots.
+							</p>
+							<h3>The Django Web Framework</h3>
+							<p>Instructor(s): Krishna Mannem<br>
+								Build an elementary web-server using Python's Django framework.
+							</p>
+
+							<h3>Machine Learning Concepts</h3>
+							<p>Instructor(s): Monty Dhanani<br>
+								Learn about the different types of machine learning algorithms in the world today and
+								build a recommendation system using Microsoft Azure's Machine Learning Suite.
+							</p>
+
+							<h3>Bus Pirates and Logic Analyzers</h3>
+							<p>Instructor(s): Irusha Vidanamadura<br>
+								Emulating communication routines with peripherals using different hardware protocols(UART, I2C, SPI) with Bus pirates,
+								and debugging logic signals and communication messages using Logic Analyzers.
+							</p>
+
+
+							<h3>Android Studio</h3>
+							<p>Instructor(s): Monty Dhanani<br>
+								Design and deploy a basic Android app using Android studio.
+							</p>
+
+							<h3>Ruby on Rails</h3>
+							<p>Instructor(s): Derek Stride and Justin Fleming<br>
+								Build a Rails web app using Ruby on Rails.
+							</p>
+
+							<h3>Internet Connected Microcontrollers</h3>
+							<p>Instructor(s): Irusha Vidanamadura<br>
+								Learn about and create programs that can run on Particle Photon WiFi-connected microncontroller boards.
+							</p>
+
+							<h3>Database Design</h3>
+							<p>Instructor(s): Justin Krol<br>
+								How to use an SQL database to store and retrieve data that for your next project.
+							</p>
+
+                            <p>More Coming Soon!</a>.</p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Go Back</button>
                         </div>
                     </div>
