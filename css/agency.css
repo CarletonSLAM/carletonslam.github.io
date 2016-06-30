@@ -657,7 +657,8 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 }
 ::selection {
   text-shadow: none;
-  background: #0073ad
+  background: #0073ad;
+  color:white;
 }
 img::selection {
   background: 0 0
