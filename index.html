@@ -62,6 +62,9 @@
                         <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="#htm">Hack The Month</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
@@ -242,8 +245,49 @@
         </div>
     </section>
 
+    <!-- Hack The Month -->
+    <section  id="htm">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Hack The Month</h2>
+                <h3 class="section-subheading text-muted">Current and past hack the month challenges</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 portfolio-item">
+                    <a href="#htmNovember2016" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/groupShot.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>November 2016</h4>
+                        <p class="text-muted">Build an API</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 portfolio-item">
+                    <a href="#htmOctober2016" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                            <img src="img/portfolio/groupShot.jpg" class="img-responsive" alt="">
+                        </div>
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>October 2016</h4>
+                        <p class="text-muted">Consume an API</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section class="bg-light-gray">
     <!-- About Section -->
-    <section id="about">
+    <section id="about" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -326,7 +370,7 @@
     </section>
 
     <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
+    <section id="team">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -816,6 +860,80 @@
 							<p>Surface Mount Soldering Clamps</a></p>
 							<p>Come and see what we have!</p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Go Back</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hack The Month Modal -->
+    <div class="portfolio-modal modal fade" id="htmOctober2016" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="">
+                            <!-- Project Details Go Here -->
+                            <h2>October Hack The Month Challenge</h2>
+                            <h3>Consume An API</h3>
+                            <h3>Judjing Day: November 3rd</h3>
+                            <p>
+                              October's challange was to create a program that would consume an API.
+                              There are different kinds of APIs like REST APIs which use static web
+                              calls to return or alter data using GET and PUT requests respectively,
+                              and Graph APIs which are accessed in a similar way to that of REST but
+                              you can define specific fields that you would like to return. Some examples
+                              of different APIs available are the Twitter(REST) and Facebook(Graph) APIs.
+                              The goal of this challange is to consume the data from an API (Not nescesarilly
+                              these two) and do something interesting/creative/functional with it.
+              </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="htmNovember2016" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="">
+                            <!-- Project Details Go Here -->
+                            <h2>November Hack The Month Challenge</h2>
+                            <h3>Build An API</h3>
+                            <h3>Judjing Day: Decmber 1st</h3>
+                            <p>
+                        November's challenge is to create an API to be consumed by someone else.
+                         One way to build an API is to use a Rails/Django/Node.js application which can
+                         be hosted using a service such as Heroku to allow others to consume your API.
+                         In your web app you will create different routes that will become your different API calls.
+                         Using a web app framework you can also store data to your API using a database for things
+                         like user information or metrics if applicable. Another possible use of an API would be to return
+                         JSON containing the information needed for building a web page dynamically using javascript or any
+                         front end framework of your choice. For this challenge Documenting the different API calls will be
+                         important as well as documenting expected return values so that the APIs can be used by other people.
+                          This documentation should go in the README on the github project.
+              </p>
+              <p>
+                There is no front end required for this project we are simply looking at the API that you build.
+                Judging will be based on how well the API works and how well it is documented. Having multiple commands
+                is helpfull but not nescesary. Error handling is also helpful but unnescesary.
+              </p>
                         </div>
                     </div>
                 </div>
