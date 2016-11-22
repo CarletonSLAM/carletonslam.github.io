@@ -691,3 +691,8 @@ body {
 	width: 100% !important;
 	height: 100% !important;
 }
+
+supporters-view div.col {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
